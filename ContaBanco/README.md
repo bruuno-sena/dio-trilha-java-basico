@@ -1,18 +1,24 @@
-## Getting Started
+# Desafio Conta Bancária
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## DIO - Trilha Java Básico
 
-## Folder Structure
+Autor: Bruno Sena
 
-The workspace contains two folders by default, where:
+Colocando em prática o conteúdo apresentado no módulo Sintaxe.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Criado o projeto ContaBanco que irá receber via termninal os dados selecionados para criar uma conta bancária com os atributos abaixo:
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+| Atributo       | Tipo     | Exemplo         |
+| -------------- | -------- | --------------- |
+| Nome Cliente   | Texto    | BRUNO SENA      |
+| Agencia        | Texto    | 067-9           |
+| Conta          | Inteiro  | 1228            |
+| Saldo          | Decimal  | 360.48          |
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Será solicitado que o usuário insira manualmente cada atributo e respeite corretamente o tipo de dado. Após inserir os dados, será solicitada a confirmação dos mesmos. Caso seja necessário editar os dados, o usuário poderá fazê-lo na mesma tela.
 
-## Dependency Management
+## Referências
+Repositório do instrutor Gleyson Sampaio [GitHub](https://github.com/digitalinnovationone/trilha-java-basico/tree/main/desafios/sintaxe)
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+BootCamp Santander - [DIO](http://www.dio.me/)
+

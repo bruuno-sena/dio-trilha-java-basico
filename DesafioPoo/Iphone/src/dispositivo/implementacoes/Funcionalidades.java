@@ -1,10 +1,9 @@
 package dispositivo.implementacoes;
 
-import dispositivo.interfaces.ReprodutorMusical;
 import dispositivo.interfaces.AparelhoTelefonico;
 import dispositivo.interfaces.NavegadorInternet;
 
-public class Apps extends Ipod implements AparelhoTelefonico, NavegadorInternet {
+public class Funcionalidades extends Ipod implements AparelhoTelefonico, NavegadorInternet {
 
     private Phone phone = new Phone();
     private Browser browser = new Browser();
